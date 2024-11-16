@@ -99,11 +99,12 @@ button {
 }
 .text-2 {
   padding: 1em;
+  margin: 20px;
 } 
 .section-footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: center;
   padding: 1em;
 } 
