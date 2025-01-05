@@ -218,7 +218,7 @@ button {
 .access p {
   padding: 1em;
 }
-.secshon ul {
+#section {
   display: flex;
   flex-direction: column;
 }
@@ -332,11 +332,11 @@ footer img {
   color: var(--Strong-Cyan);
 }
 
-.socials ul {
+#socials {
   display: flex;
   flex-direction: column;
 }
-.socials i {
+#socials i {
   padding: 1em;
 }
 .fa-brands:hover {
@@ -388,7 +388,7 @@ footer img {
     display: flex;
     flex-direction: row;
   }
-  .socials ul {
+  #socials {
     display: flex;
     flex-direction: row;
     align-items: end;
