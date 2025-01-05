@@ -36,9 +36,9 @@
 
       <section class="snippet">
         <!--what does it do-->
-        <div class="heading">
-          <h2>Keep track of your snippets</h2>
-        </div>
+        <header class="heading">
+          <h1>Keep track of your snippets</h1>
+        </header>
         <div class="text">
           <p>
             Clipboard instantly stores any item you copy in the cloud, meaning
@@ -48,9 +48,9 @@
         </div>
 
         <div class="content-2">
-          <div class="picture" aria-label="picture">
+          <picture>
             <img src="image-computer.png" alt="iMac" />
-          </div>
+          </picture>
 
           <div class="text-2">
             <h3>Quick Search</h3>
@@ -140,28 +140,41 @@
     </main>
 
     <footer>
-      <div class="section-footer">
-        <img src="logo.svg" alt="logo of this webpage" />
+      <section class="section-footer">
         <div class="one">
-          <a>FAQs</a>
-          <a>Contact Us</a>
-        </div>
+          <header>
+        <img src="logo.svg" alt="logo of this webpage" />
+        </header>
+        <nav class="one secshon">
+          <ul>
+          <li><a>FAQs</a></li>
+          <li><a>Contact Us</a></li>
+          </ul>
+        </nav>
 
-        <div class="two">
-          <a>Privacy Policy</a>
-          <a>Press Kit</a>
-        </div>
+        <nav class="two secshon">
+          <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Press Kit</a></li>
+        </nav>
 
-        <div class="three">
-          <a href="#">Install Guide</a>
-        </div>
-        <div class="socials">
-          <!--Social media links-->
-          <i class="fa-brands fa-facebook" alt="Facebook"></i>
-          <i class="fa-brands fa-twitter" alt="Twitter also known as X"></i>
-          <i class="fa-brands fa-instagram" alt="Instagram"></i>
-        </div>
+        <nav class="three secshon">
+          <ul>
+          <li><a href="#">Install Guide</a></li>
+          </ul>
+        </nav>
       </div>
+      <div>
+        <nav class="socials">
+          <!--Social media links-->
+          <ul>
+          <li><a><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </nav>
+        </div>
+      </section>
       <!--end of the page-->
     </footer>
   </body>
