@@ -218,9 +218,10 @@ button {
 .access p {
   padding: 1em;
 }
-.secshon {
+.section-footer ul {
   display: flex;
   flex-direction: column;
+  text-align: start;
 }
 li {
   list-style-type: none;
@@ -334,7 +335,7 @@ footer img {
 
 .socials {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .socials i {
   padding: 1em;
@@ -389,7 +390,6 @@ footer img {
     flex-direction: row;
   }
   .socials {
-    display: flex;
     flex-direction: row;
     align-items: end;
   }
