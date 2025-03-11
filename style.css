@@ -187,7 +187,7 @@ span {
 }
 button {
   
-  width: 100%;
+  max-width: 34rem;
   padding: 1em;
   border-radius: 2rem;
   border: none;
@@ -248,13 +248,14 @@ a {
   flex-direction: column;
   background-image: url(bg-header-desktop.png);
   background-size: cover;
-  padding: 20px;
-  padding-top: 160px;
-  padding-bottom: 150px;
+  padding: 20px 60px;
+ /* padding-top: 160px;
+  padding-bottom: 150px; */
   gap: 10px;
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin-bottom: 2em;
 }
 .top img {
   padding: 1em;
@@ -298,12 +299,14 @@ a {
 }
 .items img {
   display: inline-block;
-  width: 30%;
+  width: 55px;
+  height: 40px;
 }
 .items {
   display: flex;
   flex-direction: column;
   padding: 1em;
+  align-items: center;
 }
 .end {
   display: flex;
@@ -390,7 +393,6 @@ footer img {
     flex-direction: row;
   }
   .socials {
-    flex-direction: row;
     align-items: end;
   }
   .section-footer img {
@@ -402,7 +404,6 @@ footer img {
     padding: 1em;
   }
   .socials {
-    justify-content: space-evenly;
     padding-top: 1em;
   }
   .socials i {
